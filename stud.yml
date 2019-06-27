@@ -1,0 +1,18 @@
+# STUD 0.1
+
+name: cr380-comp
+group: comp
+project: fth
+company: vci
+version: 0.1.0
+exports:
+  - README.md
+ignore:
+  - ./**/*.pyc
+dependencies:
+  vci/fth/roto/cr380-exr: 1.0.0
+  vci/fth/plate/cr380-exr: 5.0.0
+  conductor/global/tools/conductor-client: 2.7.103
+  vci/fth/plate-cc/cr-a-cam-cc: 1.0.0
+  vci/fth/light/cr380-render-lgt: 1.0.21
+  vci/fth/comp/cr380-frd-dgn: 1.0.0
